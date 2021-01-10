@@ -1,0 +1,70 @@
+.label-header {
+    font-size: 45px;
+    padding: 0 0 0;
+    margin-bottom: 25px;
+
+}
+
+.label-header:hover {
+    color: yellow;
+}
+
+.input-field {
+    width: 30%;
+    height: 45px;
+    padding-left: 15px;
+    border: none;
+    font-size: 15px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 25px;
+    background: rgba(255, 255, 255, .2);
+
+}
+
+.input-field::placeholder {
+    color: white;
+    font-size: 15px;
+    padding: 1px;
+}
+
+.input-field:hover {
+    border-bottom: 3px solid rgb(255, 238, 0);
+}
+
+.input-field:focus {
+    border-bottom: 3px solid rgb(255, 238, 0);
+}
+
+.submit-button {
+    width: 20%;
+    height: 45px;
+    border-radius: 20px;
+}
+
+.submit-button:hover {
+    border-bottom: 5px solid rgb(255, 238, 0);
+}
+
+.error-msg {
+    width: 40%;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.sub-msg {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.msg {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.form-login {
+    width: 100%;
+    text-align: center;
+}
