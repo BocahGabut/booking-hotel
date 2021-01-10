@@ -1,64 +1,75 @@
-<p align="center">
-  <a href="https://getstisla.com">
-    <img src="https://avatars2.githubusercontent.com/u/45754626?s=75&v=4" alt="Stisla logo" width="75" height="75">
-  </a>
-</p>
+###################
+What is CodeIgniter
+###################
 
-<h1 align="center">Stisla for CodeIgniter</h1>
+CodeIgniter is an Application Development Framework - a toolkit - for people
+who build web sites using PHP. Its goal is to enable you to develop projects
+much faster than you could if you were writing code from scratch, by providing
+a rich set of libraries for commonly needed tasks, as well as a simple
+interface and logical structure to access these libraries. CodeIgniter lets
+you creatively focus on your project by minimizing the amount of code needed
+for a given task.
 
-<p align="center">
-  Stisla is Free Bootstrap Admin Template and will help you to speed up your project, design your own dashboard UI and the users will love it.
-</p>
+*******************
+Release Information
+*******************
 
-[![Stisla Preview](https://camo.githubusercontent.com/2135e0f6544a7286a3412cdc3df32d47fc91b045/68747470733a2f2f692e6962622e636f2f3674646d6358302f323031382d31312d31312d31352d33352d676574737469736c612d636f6d2e706e67)](https://getstisla.com)
+This repo contains in-development code for future releases. To download the
+latest stable release please visit the `CodeIgniter Downloads
+<https://codeigniter.com/download>`_ page.
 
-## Table of contents
+**************************
+Changelog and New Features
+**************************
 
-- [Link Stisla](#link-stisla)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#License)
+You can find a list of all changes for each release in the `user
+guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
 
-## Link Stisla
-- Homepage: [getstisla.com](https://getstisla.com)
-- Repository: [github.com/stisla/stisla](https://github.com/stisla/stisla)
-- Documentation: [getstisla.com/docs](https://getstisla.com/docs)
+*******************
+Server Requirements
+*******************
 
-## Installation
-- [Download the latest release](https://github.com/KhidirDotID/stisla-codeigniter/archive/v1.0.0.zip).
-or clone the repo :
-```
-https://github.com/KhidirDotID/stisla-codeigniter.git
-```
+PHP version 5.6 or newer is recommended.
 
-## Usage
-- Create a new Controller at `application/controllers` then put like this:
-```
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+It should work on 5.3.7 as well, but we strongly advise you NOT to run
+such old versions of PHP, because of potential security and performance
+issues, as well as missing features.
 
-class Controller_name extends CI_Controller {
+************
+Installation
+************
 
-	public function index() {
-		$data = array(
-			'title' => "Your title"
-		);
-		$this->load->view('View_name', $data);
-	}
-?>
-```
-- Create a new View at `application/views` then put like this:
-```
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-$this->load->view('dist/_partials/header'); ?>
+Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
+of the CodeIgniter User Guide.
 
-      <!-- Main Content -->
+*******
+License
+*******
 
-<?php
-$this->load->view('dist/_partials/footer'); ?>
-```
+Please see the `license
+agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
 
-## License
+*********
+Resources
+*********
 
-Stisla is under the [MIT License](LICENSE).
+-  `User Guide <https://codeigniter.com/docs>`_
+-  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
+-  `Community Forums <http://forum.codeigniter.com/>`_
+-  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
+-  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+
+Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
+or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+
+***************
+Acknowledgement
+***************
+
+The CodeIgniter team would like to thank EllisLab, all the
+contributors to the CodeIgniter project and you, the CodeIgniter user.
+
+###################
+for demo project 
+###################
+https://project-ecc.000webhostapp.com/f5bf48aa40cad7891eb709fcf1fde128/detail/308bbuinmkaoco0
